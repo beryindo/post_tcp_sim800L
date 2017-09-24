@@ -62,8 +62,8 @@ void setup() {
   Serial.print("IP Address is ");
   Serial.println(gprs.getIPAddress());  
 
-  if(0 == gprs.connectTCP("www.gpsindo.web.id", 5055)) {
-      Serial.println("connect www.gpsindo.web.id success");
+  if(0 == gprs.connectTCP("www.webkudonk.com", 6055)) {
+      Serial.println("connect www.webkudonk.com success");
   }else{
       Serial.println("connect error");
       while(1);
